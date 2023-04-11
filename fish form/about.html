@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:aquamarine;
+        }
+        h1{
+            text-align: center;
+        }
+        #h{
+            background-color: rgba(255, 255, 1, 0.997);
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function h()
+        {
+           num = prompt("Enter your whatsapp number for more updates")
+           if(isNaN(num))
+           {
+            alert("Please enter valid numbers only!")
+           }
+           else if(num.length!=10){
+            alert("10 digit number required")
+           }
+           else{
+            alert(" Details will be sent to your whatsapp, Thank you")
+           }
+        }
+    </script>
+</head>
+<body>
+    <h1><u><b>Contact us</b></u></h1>
+    <button id="h"><a href="C:\Users\vijay\Desktop\web\fish form\index.html">home</a></button>
+    <br><h3>Address:-</h3>
+    <pre>
+        wizard's fish form,
+        Mukkani Village , 
+        Srivaikundam Block , 
+        Tuticorin District,
+        Tamil nadu.
+    </pre>
+    <h3>Aditional Details:-</h3>
+    <pre>
+       <b>Email          :</b>wizardv3.rx100@gmail.com
+       <b>Whatsapp Number:</b>9787321142
+    </pre>
+    <button type="button" onclick="return h()">Help !</button>
+    </body>
+</html>
